@@ -1,0 +1,178 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+/* Nav Styles */
+
+.navColor {
+  color: #ffffff;
+  background-color: #379074;
+}
+
+.navBrand {
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 1.5rem;
+  color: #ffffff;
+  letter-spacing: .2rem;  
+}
+
+.navBrand:hover{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.navLink{
+  font-family: 'Baloo 2', cursive;
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+.navLink:hover{
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.navIcon {
+    background-color: red;
+    height: 20px;
+    width: 20px;
+}
+
+@media(max-width: 600px){
+  .navList{
+    display: flex;
+    flex-direction: row;
+  }
+  .navLink{
+    margin-left: 10px;
+  }
+}
+
+/* End Nav Styles */
+
+.startTitles{
+    font-size: 1.7rem;
+    margin-bottom: 1.3rem;
+    line-height: 1rem;
+    font-family: 'Walter Turncoat', cursive;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #44c89f;
+}
+
+.startText {
+  line-height: 2rem;
+  letter-spacing: .1rem;
+  padding: 1rem;
+  font-size: 1.15rem;
+  font-family: 'Baloo 2', cursive;
+}
+
+.startBox {
+  text-align: center;
+  margin: 15px;
+  padding: 10px;
+  box-shadow: 
+         inset 0 -3em 3em rgba(0,0,0,0.1), 
+               0 0  0 2px rgb(255,255,255),
+               .7em 0.7em 1em rgba(0,0,0,0.3);
+}
+
+@media(max-width: 600px){
+  .startBox {
+    box-shadow: 
+           inset 0 -3em 3em rgba(0,0,0,0.1), 
+                 0 0  0 2px #379074,
+                 .7em 0.7em 1em rgba(0,0,0,0.3);
+  }  
+}
+
+.contact-background {
+  background: #2FE5B0;
+}
+
+/* Estilos Redes */
+
+.fa {
+    padding: 16.5px;
+    font-size: 2rem;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 7px;
+    border-radius: 50%;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    text-decoration: none;
+    color: white;
+    opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-instagram {
+    background:#ea4c89;
+    color: white;
+  }
+
+  /* Fin Estilos Redes */
+
+  /* Inicio Estilos Ingredientes */
+
+  .ingredientsTitle {
+    font-family: 'Walter Turncoat', cursive;
+    font-size: 1.5rem;  
+  }
+
+  .ingredientsButton {
+    background-color: #379074;
+    border: 0;
+  }
+
+  .ingredientsButton:hover{
+    opacity: .8;
+    background-color: #379074;
+  }
+
+  .ingredientsText {
+    font-size: 1.3rem;
+    font-family: 'Baloo 2', cursive;
+    margin-top: 1rem;
+    text-align: center;
+    line-height: 1rem;
+    letter-spacing: .2rem;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 992px) {
+    .ingredientsTitle{
+      font-size: 1.4rem;
+    }
+  }
+
+/* Fin Estilos Ingredientes */
+
+/* Footer Styles */
+
+.footer{
+  background-color: rgb(0, 0, 0);
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+}
+
+/* End Footer Styles */

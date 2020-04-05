@@ -5,6 +5,13 @@ module.exports = {
     author: `@gatsbyjs`,
   },
   plugins: [
+    {
+            resolve: 'gatsby-source-datocms',
+            options: {
+              apiToken: '4f5a808b10d81d327f2ffc04f47366'
+            }
+    },      
+    `gatsby-plugin-styled-components`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
