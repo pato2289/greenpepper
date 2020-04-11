@@ -11,6 +11,7 @@ const Layout = ({ children }) => {
   return (
     <>
         <Helmet>
+        <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Caveat|Gochi+Hand|Kalam|Pangolin&display=swap" rel="stylesheet" />
           <link href="https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap" rel="stylesheet"/>
           <link href="https://fonts.googleapis.com/css2?family=Allan&family=Bad+Script&family=Shadows+Into+Light+Two&display=swap" rel="stylesheet" />
           <link href="https://fonts.googleapis.com/css?family=Baloo+2|Sen&display=swap" rel="stylesheet"/>
